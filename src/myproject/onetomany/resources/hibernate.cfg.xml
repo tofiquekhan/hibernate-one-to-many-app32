@@ -11,8 +11,8 @@
 	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 	<property name="show_sql">true</property>
 	<property name="hbm2ddl.auto">create</property>
-	<mapping resource="myproject/onetomany/resources/Department.hbm.xml"/>
-	<mapping resource="myproject/onetomany/resources/Employee.hbm.xml"/>
+	<mapping class="myproject.onetomany.entity.Department"/>
+	<mapping class="myproject.onetomany.entity.Employee"/>
 	</session-factory>
 	
 	

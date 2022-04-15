@@ -1,10 +1,22 @@
 package myproject.onetomany.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "emp12")
 public class Employee {
 
+	@Id
+	@Column
 	private int eno;
+	@Column
 	private String ename;
+	@Column
 	private float esal;
+	@Column
 	private String eaddr;
 	public int getEno() {
 		return eno;
