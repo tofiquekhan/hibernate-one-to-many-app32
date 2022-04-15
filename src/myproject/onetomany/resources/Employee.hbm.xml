@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="myproject.onetomany.entity.Employee" table="emp11">
+<id name="eno" length="3"/>
+<property name="ename" length="10"/>
+<property name="esal" length="10"/>
+<property name="eaddr" length="10"/>
+
+
+</class>
+
+
+
+</hibernate-mapping>
